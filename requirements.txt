@@ -1,0 +1,17 @@
+# Avalanche forecast app – install into .venv-avalanche-forecast
+# Python 3.11+ recommended for stability with geopandas/shapely
+
+requests>=2.31.0,<3
+beautifulsoup4>=4.12.0,<5
+pandas>=2.1.0,<3
+numpy>=1.24.0,<3
+scikit-learn>=1.3.0,<2
+xgboost>=2.0.0,<3
+pyarrow>=14.0.0,<17
+tqdm>=4.66.0
+shapely>=2.0.0,<3
+geopandas>=0.14.0,<1
+matplotlib>=3.7.0,<4
+openmeteo-requests>=1.3.0,<2
+requests-cache>=1.2.0,<2
+retry-requests>=2.0.0,<3

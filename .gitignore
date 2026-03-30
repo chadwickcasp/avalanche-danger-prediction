@@ -138,6 +138,7 @@ celerybeat.pid
 .env
 .envrc
 .venv
+.venv-avalanche-forecast/
 env/
 venv/
 ENV/
@@ -200,6 +201,12 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Offline data for scraped HTML (notebooks / EDA)
+eda/offline_data/
+
+# Certifi + DigiCert intermediate for AWDB TLS
+eda/certs/
 
 # Marimo
 marimo/_static/
